@@ -224,16 +224,16 @@ function getTimeNow() {
 }
 
 
-function showAbout() {
+/*function showAbout() {
     document.getElementById('about').style.display = 'block';
     document.getElementById('about-button').style.display = 'none';
-}
+}*/
 
 
-function hideAbout() {
+/*function hideAbout() {
     document.getElementById('about').style.display = '';
     document.getElementById('about-button').style.display = '';
-}
+}*/
 
 
 function task_alert() {
@@ -346,4 +346,22 @@ function todo_add() {
 
     document.getElementById('todo-task').value = '';
 }
+
+//--------------- jquery based about display -----------------------
+function showAbout(){
+	//$('div#about').show("slow");
+	//$('.navbar #about-button').attr('disabled', true);
+	$('#about').modal('toggle');
+}
+
+function hideAbout() {
+	$('div#about').hide("slow");
+	$('.navbar #about-button').attr('disabled', false);
+}
+
+function inti(){
+	
+	
+}
+
 
