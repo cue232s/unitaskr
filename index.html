@@ -6,9 +6,8 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link rel="stylesheet" href="unitaskr.css" type="text/css" media="screen, projection">
 <link rel="stylesheet" href="bootstrap/docs/assets/css/bootstrap.css" type="text/css" media="all">
-
 <style>
-body{
+body {
 	padding-top: 60px;
 }
 .navbar.navbar-fixed-top .navbar-inner .container-fluid .navbar-text {
@@ -25,10 +24,7 @@ body{
     <div class="container-fluid">
       <div class="brand">Unitaskr</div>
       <h6 class="navbar-text">One task at a time.</h6>
-    
-      <a class="btn btn-info btn-mini" data-toggle="modal" href="#about" id="about-button">About</a>
-    
-    </div>
+      <a class="btn btn-info btn-mini" data-toggle="modal" href="#about" id="about-button">About</a> </div>
     <!-- end navbar-inner --> 
   </div>
   <!-- end container-fluid --> 
@@ -37,41 +33,41 @@ body{
 
 <!-- About -->
 <div id="about" class="modal fade alert-info">
-	<div class="modal-header">
-    	<a class="close" data-dismiss="modal">×</a>
-        <h3>What is Unitaskr??</h3>
-    </div>
-    <div class="modal-body">
-  <p>Unitasking, aka monotasking, means focusing on one job, 
-    project, or goal at a time, completing that task, and moving 
-    on to the next one. Thus, it's the opposite of multi-tasking.</p>
-  <p><strong><em>Unitaskr</em></strong> is a simple productivity tool
-    that allows you to set tasks you want to perform, just for today, 
-    and a time when you want to start performing them, then it alerts
-    you when it's time to move to the next task.</p>
-  <p>It's very easy to get caught up in one task so much that you lose
-    track of time and never end up getting to all the tasks on your todo 
-    list. Unitaskr aims to solve this problem.</p>
-  <p>The interface is designed to allow you to quickly enter new tasks,
-    and optional notes about them.</p>
-  <p>Manually starting the timer between each task allows you to take
-    as long of a break between tasks as you want.</p>
-  <p>You'll need to enable popups for unitaskr to be able to alert you.
-    Unitaskr doesn't use cookies, so if you refresh the page you will
-    restart the program.</p>
-  <p>Tip: Time management studies show that it's best to take care of as
-    many small, quick-to-do, tasks as possible right away--such as writing
-    quick emails and starting the dishwasher--that way, you can completely
-    forget about these things, rather think constantly thinking about them
-    the rest of the day, thus decreasing stress and improving concentration. </p>
-    </div>
-    <div class="modal-footer">
-  <button onClick="hideAbout(); return true;">&lsaquo; Hide About</button>
+  <div class="modal-header"> <a class="close" data-dismiss="modal">×</a>
+    <h3>What is Unitaskr??</h3>
+  </div>
+  <div class="modal-body">
+    <p>Unitasking, aka monotasking, means focusing on one job, 
+      project, or goal at a time, completing that task, and moving 
+      on to the next one. Thus, it's the opposite of multi-tasking.</p>
+    <p><strong><em>Unitaskr</em></strong> is a simple productivity tool
+      that allows you to set tasks you want to perform, just for today, 
+      and a time when you want to start performing them, then it alerts
+      you when it's time to move to the next task.</p>
+    <p>It's very easy to get caught up in one task so much that you lose
+      track of time and never end up getting to all the tasks on your todo 
+      list. Unitaskr aims to solve this problem.</p>
+    <p>The interface is designed to allow you to quickly enter new tasks,
+      and optional notes about them.</p>
+    <p>Manually starting the timer between each task allows you to take
+      as long of a break between tasks as you want.</p>
+    <p>You'll need to enable popups for unitaskr to be able to alert you.
+      Unitaskr doesn't use cookies, so if you refresh the page you will
+      restart the program.</p>
+    <p>Tip: Time management studies show that it's best to take care of as
+      many small, quick-to-do, tasks as possible right away--such as writing
+      quick emails and starting the dishwasher--that way, you can completely
+      forget about these things, rather think constantly thinking about them
+      the rest of the day, thus decreasing stress and improving concentration. </p>
+  </div>
+  <div class="modal-footer">
+    <button onClick="hideAbout(); return true;">&lsaquo; Hide About</button>
   </div>
 </div>
 
 <!-- Show the current task --> 
 <div id=""
+
 
 
 <div id="current-task"> <span><strong>Current Task: </strong>&nbsp;</span> <span id="current-task-text">?</span> &nbsp; <span> <a href="#" onClick="edit_task(
@@ -81,8 +77,7 @@ body{
 <p id="usage-no-timer">Enter the first task to do.</p>
 <p id="usage-timer">Enter the amount of time to spend doing the <em>current</em> task before being alerted when it's time to do the 
   next task.</p>
-  
-  <a class="btn-info" href="">Link</a>
+<a class="btn-info" href="">Link</a> 
 
 <!-- Get user info -->
 <form name="taskbar" action="" onSubmit="startTimer(); return false;">
@@ -153,10 +148,10 @@ body{
 </div>
 
 <!-- Include javascript functions file --> 
-<script src="bootstrap/docs/assets/js/jquery.js"></script>
-<script src="unitaskr.js" type="text/javascript"></script>
-<script src="bootstrap/js/bootstrap-modal.js" type="text/javascript"></script>
-<script src="bootstrap/js/bootstrap-transition.js" type="text/javascript"></script>
+<script src="bootstrap/docs/assets/js/jquery.js"></script> 
+<script src="unitaskr.js" type="text/javascript"></script> 
+<script src="bootstrap/js/bootstrap-modal.js" type="text/javascript"></script> 
+<script src="bootstrap/js/bootstrap-transition.js" type="text/javascript"></script> 
 <script>
 $(document).ready(function(e) {
     //$('.navbar #about-button').click(showAbout);
