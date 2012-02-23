@@ -348,20 +348,6 @@ function todo_add() {
 }
 
 //--------------- jquery based about display -----------------------
-function showAbout(){
-	//$('div#about').show("slow");
-	//$('.navbar #about-button').attr('disabled', true);
-	$('#about').modal('toggle');
-}
 
-function hideAbout() {
-	$('div#about').hide("slow");
-	$('.navbar #about-button').attr('disabled', false);
-}
-
-function inti(){
-	
-	
-}
 
 
