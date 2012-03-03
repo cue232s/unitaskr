@@ -246,3 +246,12 @@ legend {
 #next-link, #delete-link {
     text-decoration: none;
 }
+.container-fluid .row-fluid #leftpanel {
+	background-color: #FC3;
+	min-height: 480px;
+	 margin-left: 0;
+   /* margin-top: -20px; */
+}
+.container-fluid .row-fluid .span12 .row-fluid #rightpanel {
+	height: 480px;
+}
